@@ -9,7 +9,7 @@ import List from './pages/List/List';
 import Order from './pages/Orders/Order';
 
 function App() {
-  const url = "http://localhost:400"
+  const url = "https://food-application-fvi8.onrender.com"
   return (
     <div>
       <ToastContainer />
