@@ -6,7 +6,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cardItem, setCardItem] = useState({})
-    const url = 'http://localhost:400'
+    const url = 'https://food-application-fvi8.onrender.com'
     const [token, setToken] = useState("")
 
     const [food_list, setFood_list] = useState([])
